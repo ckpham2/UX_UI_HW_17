@@ -1,0 +1,53 @@
+link {
+    display: none;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+nav {
+    width: 73%;
+    padding: 1%;
+}
+ul {
+    width: 50%;
+    margin-left: auto;
+    padding: center;
+}
+.nav{
+    display: inline-block;
+    vertical-align: top;
+}
+.heroImg {
+    height: 600px;
+    padding: 25px;
+    width: 500px;
+    margin: 0 auto;
+}
+img {
+    float: left;
+    width: 532px;
+    height: 597px;
+    background-image: url(/images/Caroline\ Pham\ Logos-02\ 1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.content {
+    float: right;
+}
+footer{
+    background-color: #373738;
+}
+.footer {
+    display: inline-block;
+    padding: inline-block;
+}
+li {
+    padding: inline-block;
+}
+.nav {
+    display: inline-block;
+    vertical-align: top;
+    width: 73%;
+    padding: 1%;
+}
