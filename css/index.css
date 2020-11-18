@@ -6,6 +6,7 @@ link {
     vertical-align: top;
 }
 nav {
+    height: 50px;
     width: 73%;
     padding: 1%;
 }
@@ -13,37 +14,52 @@ ul {
     width: 50%;
     margin-left: auto;
     padding: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #1D1F1E;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 .nav{
     display: inline-block;
     vertical-align: top;
 }
-.heroImg {
-    height: 600px;
-    padding: 25px;
-    width: 500px;
-    margin: 0 auto;
-}
 img {
-    float: left;
     width: 532px;
-    height: 597px;
+    height: 550px;
     background-image: url(/images/Caroline\ Pham\ Logos-02\ 1.png);
     background-repeat: no-repeat;
-    background-position: left;
+    float: left;
+}
+.bio {
+    height:592px;
+    float: left;
+    width: 532px;
 }
 .content {
     float: right;
-}
-footer{
-    background-color: #373738;
+    font-size: 24pt;
+    font-weight: 500;
 }
 .footer {
-    display: inline-block;
-    padding: inline-block;
-}
-li {
-    padding: inline-block;
+    width: 50%;
+    margin-left: auto;
+    padding: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 .nav {
     display: inline-block;
@@ -51,3 +67,26 @@ li {
     width: 73%;
     padding: 1%;
 }
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+button {
+    display: inline-block;
+    padding: 15px;
+    margin: 15px;
+    width: 150px;
+    font-size: 14px;
+    text-align: center;
+    color: #1D1F1E;
+    border-radius: 25px;
+    background-color: #D8E8E7;
+}
+h1 {
+    font-size: 64pt;
+    font-weight: bold;
+}
+
