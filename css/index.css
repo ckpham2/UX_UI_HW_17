@@ -1,13 +1,22 @@
 link {
     display: none;
 }
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    width: 1152px;
+    border: 15px;
+    padding: 50px;
+    margin: 10px;
+    height: 700px;
+}
 .inline-block {
     display: inline-block;
     vertical-align: top;
 }
 nav {
     height: 50px;
-    width: 73%;
+    width: 1152px;
     padding: 1%;
 }
 ul {
@@ -22,6 +31,7 @@ ul {
   
   li {
     float: right;
+    font-size: 36px;
   }
   
   li a {
@@ -30,6 +40,7 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 16px;
   }
 .nav{
     display: inline-block;
@@ -73,6 +84,7 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    text-align: center;
 }
 button {
     display: inline-block;
@@ -83,10 +95,14 @@ button {
     text-align: center;
     color: #1D1F1E;
     border-radius: 25px;
+    border-color: #D8E8E7;
     background-color: #D8E8E7;
 }
 h1 {
     font-size: 64pt;
     font-weight: bold;
+    text-align: center;
 }
-
+html {
+    line-height: 1.7;
+}
