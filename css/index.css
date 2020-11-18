@@ -20,18 +20,16 @@ nav {
     padding: 1%;
 }
 ul {
-    width: 50%;
-    margin-left: auto;
-    padding: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    display: inline-block;
 }
   
   li {
     float: right;
-    font-size: 36px;
+    font-size: 26px;
+    display: inline-block;
   }
   
   li a {
@@ -40,7 +38,6 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 16px;
   }
 .nav{
     display: inline-block;
@@ -63,14 +60,23 @@ img {
     font-size: 24pt;
     font-weight: 500;
 }
-.footer {
+footer {
+    border: solid 1px red;
+    margin-top: 100px;
+}
+footer div {
+    display: inline-block;
+}
+footer .copyright {
+    width: 49%;
+    height: 30px;
+}
+footer .connect {
     width: 50%;
-    margin-left: auto;
-    padding: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    text-align: right;
+}
+footer ul li a{
+    padding: 0 15px;
 }
 .nav {
     display: inline-block;
@@ -85,11 +91,12 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     text-align: center;
+    width: 500px;
 }
 button {
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
     padding: 15px;
-    margin: 15px;
     width: 150px;
     font-size: 14px;
     text-align: center;
@@ -105,4 +112,7 @@ h1 {
 }
 html {
     line-height: 1.7;
+}
+span {
+    color: #1D1F1E;
 }
